@@ -1,0 +1,15 @@
+name: AoLanguage
+main: AoLanguage\Main
+version: 1.0.0
+api: 5.0.0
+author: Karepanov
+website: https://github.com/karepanov35
+description: Плагин для смены языка игрока.
+commands:
+  language:
+    description: Сменить язык (ru/en).
+    usage: "/language (ru/en)."
+    permission: aolanguage.command
+permissions:
+  aolanguage.command:
+    default: true
